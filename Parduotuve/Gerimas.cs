@@ -16,7 +16,7 @@ namespace Parduotuve
 
         public Gerimas(string eilute)
         {
-            var isskaidyti = eilute.Split(';');
+            var isskaidyti = eilute.Split(',');
             Gamintojas = isskaidyti[0];
             Pavadinimas = isskaidyti[1];
             Laipsniai = Convert.ToDouble(isskaidyti[2]);
